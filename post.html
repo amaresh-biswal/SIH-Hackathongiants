@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Content</title>
+    <style>
+        /* Add background color */
+        body {
+            background-color: #fcb550; /* Replace with your desired background color */
+        }
+
+        /* Style the form */
+        #post-form {
+            max-width: 400px; /* Set the maximum width of the form */
+            margin: 0 auto; /* Center the form horizontally */
+            padding: 20px;
+            background-color: #fff; /* Set a white background for the form */
+            border-radius: 8px; /* Add some rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        }
+
+        /* Style form elements */
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Center the submit button */
+        input[type="submit"] {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Post Your Content</h1>
+    </header>
+
+    <main>
+        <section id="post-form">
+            <h2>Create a New Post</h2>
+            <form action="process_post.php" method="POST" enctype="multipart/form-data">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+
+                <input type="submit" value="Post">
+            </form>
+        </section>
+
+        <!-- Display existing posts here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Set the background color */
+        body {
+            background-color: #b5ea54; /* Replace with your desired background color */
+        }
+
+        /* Add CSS styles for spacing between the "Connect Request" button and the avatar */
+        .guide {
+            margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+            background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to the guide boxes for readability */
+            padding: 20px; /* Add some padding to the guide boxes */
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Our Local Guides</h1>
+    <div class="guide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-HM2SXYoFDGDMERjCJ3iRwYKfYGJdlMrVog8Zpufs-Am_9GY6Tm8bXFUkbEwS7xzWEhU&usqp=CAU" alt="Local Guide 1">
+        <h2>Local Guide 1</h2>
+        <p>Location: Mumbai</p>
+        <p>Address: 123 Main Street, Mumbai, India</p>
+        <p>Guiding Experience: 4 years</p>
+        <p>Available for Stay: Yes</p>
+        <button class="connect-button" data-guide="Local Guide 1">Connect Request</button>
+    </div>
+    <div class="guide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHK_xd4GHWvzXkA3DygGiU3---JdQdHXbA_uTguFvckcwsMDakFodlYlaQMv4p6fWM5I&usqp=CAU" alt="Local Guide 2">
+        <h2>Local Guide 2</h2>
+        <p>Location: Delhi</p>
+        <p>Address: 456 Elm Street, Delhi, India</p>
+        <p>Guiding Experience: 10 years</p>
+        <p>Available for Stay: No</p>
+        <button class="connect-button" data-guide="Local Guide 2">Connect Request</button>
+    </div>
+    <div class="guide">
+        <img src="data:image/png;base64,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" alt="Local Guide 3">
+        <h2>Local Guide 3</h2>
+        <p>Location: Jaipur</p>
+        <p>Address: 456 NDD Street, Rajasthan, India</p>
+        <p>Guiding Experience: 15 years</p>
+        <p>Available for Stay: Yes</p>
+        <button class="connect-button" data-guide="Local Guide 3">Connect Request</button>
+    </div>
+    <!-- Add more guide information as needed -->
+    
+    <script>
+        // JavaScript code to handle connect requests
+        document.querySelectorAll(".connect-button").forEach((button) => {
+            button.addEventListener("click", function () {
+                const guideName = this.getAttribute("data-guide");
+                alert("Connect request sent to " + guideName);
+            });
+        });
+    </script>
+</body>
+</html>
+
+
