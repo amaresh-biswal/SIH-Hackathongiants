@@ -1,0 +1,84 @@
+/* Updated CSS */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /* Add a background image */
+    background-image: url('https://i.natgeofe.com/n/2c81abcc-8189-4a12-bf59-a94b4b675fe6/01_glacier_h_21_00161051_16x9.jpg?w=1200');
+    background-size: cover; /* Adjust this as needed */
+}
+
+h1 {
+    color: #131101; /* Changed header color to blue */
+}
+
+header {
+    background-color: #FF9933; /* Dark background for header */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-style: italic;
+}
+
+label {
+    font-weight: bold;
+    color: #080808;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004d99;
+}
+
+#results {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(193, 205, 162, 0.8); /* Transparent white background */
+    border: 1px solid #141414;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #cb1013; /* List items color changed to blue */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
