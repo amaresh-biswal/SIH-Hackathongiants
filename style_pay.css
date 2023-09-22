@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #fafafa;
-    box-shadow: 0 0 10px rgba(216, 212, 212, 0.1);
 }
 
 header {
@@ -59,14 +57,4 @@ section {
 img {
     max-width: 100%;
     height: auto;
-}
-#payment {
-    text-align: left;
-    margin-top: 20px;
-    font-size: 20px;
-    padding: 20px;
-    background-color: rgba(204, 236, 123, 0.8); /* Transparent white background */
-    border: 1px solid #141414;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
