@@ -7,7 +7,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
     /* Add a background image */
-    background-image: url('https://i.natgeofe.com/n/2c81abcc-8189-4a12-bf59-a94b4b675fe6/01_glacier_h_21_00161051_16x9.jpg?w=1200');
+    background-image: url("https://i.natgeofe.com/n/2c81abcc-8189-4a12-bf59-a94b4b675fe6/01_glacier_h_21_00161051_16x9.jpg?w=1200");
     background-size: cover; /* Adjust this as needed */
 }
 
