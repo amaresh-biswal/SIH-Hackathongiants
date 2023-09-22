@@ -14,7 +14,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 95vh;
+            height: 80vh;
             background-image: url("https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2VyYWxhJTIwYmFja3dhdGVyc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
             background-size: cover;
         }
@@ -33,26 +33,111 @@
             color: #000000; /* Change the font color to tomato */
         }
     </style>
+    <style>
+        .state-link {
+            display: inline-block;
+            width: fit-content;
+            margin: 10px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            color: white;
+        }
+        .state-link:nth-child(odd) {
+            background-color: #ff6347; /* Tomato color for odd links */
+        }
+        .state-link:nth-child(even) {
+            background-color: #6495ed; /* Cornflower blue color for even links */
+        }
+    </style>
 </head>
 <body>
     <div class="center">
         <h1>Welcome to Incredible Bharat!</h1>
     </div>
     <h2>Explore our Tourism Packages</h2>
-    <div style="text-align: center;">
+    <div style="text-align: center;"> 
         <a class="state-link" href="frontendHTML.html">Home</a>
-        <a class="state-link" href="#maharashtra">Maharashtra</a>
-        <a class="state-link" href="#tamilnadu">Tamil Nadu</a>
-        <a class="state-link" href="#delhi">Delhi</a>
-        <a class="state-link" href="#himachal">Himachal Pradesh</a>
-        <a class="state-link" href="#assam">Assam</a>
-        <a class="state-link" href="#rajasthan">Rajasthan</a>
-        <a class="state-link" href="#westbengal">West Bengal</a>
+        <a class="state-link" href="#northindia">North India</a>
+        <a class="state-link" href="#southindia">South India</a>
+        <a class="state-link" href="#westindia">West India</a>
+        <a class="state-link" href="#eastindia">East India</a>
+        <a class="state-link" href="#centralindia">Central India</a>
+        <a class="state-link" href="#northeastindia">North East India</a>
+        <a class="state-link" href="#unionterritories">Union Territories</a>
+    </div>
+    <div class="package" id="northindia">
+        <div class="package">
+            <h3>North India</h3>
+            <a class="state-link" href="#himachal">Himachal Pradesh</a>
+            <a class="state-link" href="#uttarpradesh">Uttar Pradesh</a>
+            <a class="state-link" href="#punjab">Punjab</a>
+            <a class="state-link" href="#uttarakhand">Uttarakhand</a>
+        </div>
+    </div>
+    <div class="package" id="southindia">
+        <div class="package">
+            <h3>South India</h3>
+            <a class="state-link" href="#andhrapradesh">Andhra Pradesh</a>
+            <a class="state-link" href="#kerala">Kerala</a>
+            <a class="state-link" href="#karnataka">Karnataka</a>
+            <a class="state-link" href="#telengana">Telengana</a>
+            <a class="state-link" href="#tamilnadu">Tamilnadu</a>
+        </div>
+    </div>
+    <div class="package" id="westindia">
+        <div class="package">
+            <h3>West India</h3>
+            <a class="state-link" href="#rajasthan">Rajasthan</a>
+            <a class="state-link" href="#gujarat">Gujarat</a>
+            <a class="state-link" href="#goa">Goa</a>
+            <a class="state-link" href="#maharashtra">Maharashtra</a>
+        </div>
+    </div>
+    <div class="package" id="eastindia">
+        <div class="package">
+            <h3>East India</h3>
+            <a class="state-link" href="#westbengal">West Bengal</a>
+            <a class="state-link" href="#odisha">Odisha</a>
+            <a class="state-link" href="#bihar">Bihar</a>
+            <a class="state-link" href="#jharkhand">Jharkhand</a>
+        </div>
+    </div>
+    <div class="package" id="centralindia">
+        <div class="package">
+            <h3>Central India</h3>
+            <a class="state-link" href="#chhattisgarh">Chhattisgarh</a>
+            <a class="state-link" href="#madhyapradesh">Madhya Pradesh</a>
+        </div>
+    </div>
+    <div class="package" id="northeastindia">
+        <div class="package">
+            <h3>North East India</h3>
+            <a class="state-link" href="#assam">Assam</a>
+            <a class="state-link" href="#nagaland">Nagaland</a>
+            <a class="state-link" href="#manipur">Manipur</a>
+            <a class="state-link" href="#meghalaya">Meghalaya</a>
+            <a class="state-link" href="#tripura">Tripura</a>
+            <a class="state-link" href="#sikkim">Sikkim</a>
+            <a class="state-link" href="#arunachalpradesh">Arunachal Pradesh</a>
+            <a class="state-link" href="#mizoram">Mizoram</a>
+        </div>
+    </div>
+    <div class="package" id="unionterritories">
+        <div class="package">
+            <h3>Union Territories</h3>
+            <a class="state-link" href="#delhi">Delhi</a>
+            <a class="state-link" href="#andaman-nicobar">Andaman Nicobar</a>
+            <a class="state-link" href="#chandigarh">Chandigarh</a>
+            <a class="state-link" href="#dadra-nagar-haveli">Dadra Nagar Haveli</a>
+            <a class="state-link" href="#lakshadweep">Lakshadweep</a>
+            <a class="state-link" href="#ladakh">Ladakh</a>
+            <a class="state-link" href="#jandk">Jammu and Kashmir</a>
+        </div>
     </div>
     <div class="package" id="maharashtra">
     <div class="package">
         <h3>Package 1: Maharastra</h3>
-        <img src="https://cdn.wallpapersafari.com/73/86/UDH1rz.jpg"width="500"height="300">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/309583583.jpg?k=bbb895514ec1ecf1846aa58b0a4e347c48d684c84a5f81d536cd6c105073272b&o=&hp=1"width="500"height="300">
         <!--style="display: flex; flex-direction: row;">
   <img src="https://cdn.wallpapersafari.com/73/86/UDH1rz.jpg" alt="Photo 1" style="width: 50%; margin: 10px; padding: 5px;">
   <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d3/55/5a/pathway-to-fort.jpg?w=500&h=-1&s=1" alt="Photo 2" style="width: 50%; margin: 10px; padding: 5px;">-->
@@ -93,7 +178,7 @@
     <div class="package" id="himachal">
     <div class="package">
         <h3>Package 4: Himachal Pradesh</h3>
-        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/cover-for-Things-to-do-Himachal-Pradesh_22nd-nov.jpg"width="500"height="300">
+        <img src="https://lp-cms-production.imgix.net/2019-06/GettyImages-149353949_high.jpg"width="500"height="300">
         <p>Himachal Pradesh is a state in northern India that offers scenic beauty, cultural diversity, and adventure activities. Here is a possible itinerary for a 7 days trip to Himachal Pradesh:</p>
         <p>Day 1: Arrive in Chandigarh and drive to Shimla, the capital of Himachal Pradesh and a popular hill station. Check in to your hotel and explore the Mall Road, the Ridge, and the Jakhu Temple.</p>
         <p>Day 2: Take a day trip to Kufri, a nearby town that offers snow activities, wildlife park, and panoramic views. Return to Shimla and visit the Viceregal Lodge, the former residence of the British Viceroy.</p>
@@ -111,7 +196,7 @@
     <div class="package" id="assam">
     <div class="package">
         <h3>Package 5: Assam</h3>
-        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/cover-for-Things-to-do-Himachal-Pradesh_22nd-nov.jpg"width="500"height="300">
+        <img src="https://imgcld.yatra.com/ytimages/image/upload/v1517482087/AdvNation/ANN_DES71/ann_top_Assam_c49hzx.jpg"width="500"height="300">
         <p>Assam is a state in Northeast India that offers breathtaking natural beauty and cultural diversity. Here is a possible itinerary for a 3 days trip to Assam:</p>
         <p>Day 1: Arrive in Guwahati, the gateway to Northeast India. Visit the Kamakhya Temple, a historic and religious site. Explore the Srimanta Sankardev Kalakshetra, a cultural complex of Assam.</p>
         <p>Day 2: Take a day trip to Kaziranga National Park, a UNESCO site and the home of the rhino. Enjoy a safari and spot wildlife. Also visit the Kaziranga National Orchid and Biodiversity Park, a garden of orchids and plants.</p>
@@ -125,7 +210,7 @@
     <div class="package" id="rajasthan">
     <div class="package">
         <h3>Package 6: Rajasthan</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1200px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg"width="500"height="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Thar_Khuri.jpg"width="500"height="300">
         <p>Rajasthan is a state in western India that offers a rich cultural and natural diversity. Here is a possible itinerary for a 3 days trip to Rajasthan:</p>
         <p>Day 1: Arrive in Jaipur, the capital city and the pink city of India. Visit the Hawa Mahal, the Amer Fort, and the Jal Mahal, which are architectural marvels of the Rajput era. Enjoy the street food and shopping at the bazaars.</p>
         <p>Day 2: Drive to Jodhpur, the blue city and the second largest city of Rajasthan. Visit the Mehrangarh Fort, the Umaid Bhawan Palace, and the Rao Jodha Desert Rock Park, which showcase the royal and natural heritage of the state.</p>
@@ -139,7 +224,7 @@
     <div class="package" id="westbengal">
     <div class="package">
         <h3>Package 7: West Bengal</h3>
-        <img src="https://deih43ym53wif.cloudfront.net/victoria-memorial-architectural-monument-museum-kolkata-shutterstock_643469977.jpg_bea19c345c.jpg"width="500"height="300">
+        <img src="https://www.holidify.com/images/bgImages/WEST-BENGAL.jpg"width="500"height="300">
         <p>West Bengal is a state in eastern India with a rich culture, stunning nature, and a vibrant past. Here is a possible itinerary for a 5 days trip:</p>
         <p>Day 1: Arrive in Kolkata, the capital and financial hub of India. Explore the landmarks, such as the Howrah Bridge, the Victoria Memorial, and the Indian Museum. Enjoy the food and nightlife of Kolkata.</p>
         <p>Day 2: Take a day trip to Gangasagar, an island in the Bay of Bengal that is sacred by Hindus. Visit the Kapil Muni Temple and take a dip in the confluence of the Ganga and the sea.</p>
@@ -152,7 +237,411 @@
         </div>
     </div>
     </div>
-
+    <div class="package" id="jandk">
+        <h3>Package 8: Jammu and Kashmir</h3>
+        <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/21104741/Tourist-Places-in-Kashmir-feature-compressed.jpg" width="500" height="300">
+        <p>Jammu and Kashmir, often referred to as "Paradise on Earth," is a northern union territory known for its stunning landscapes, serene lakes, and spiritual aura. Here is a possible itinerary for a 7 days trip to Jammu and Kashmir:</p>
+        <p>Day 1: Arrive in Srinagar, the summer capital of Jammu and Kashmir, and check in to a traditional houseboat on Dal Lake. Explore the Mughal Gardens and enjoy a Shikara ride.</p>
+        <p>Day 2: Drive to Gulmarg, a renowned hill station, and enjoy the scenic beauty. Explore the Gulmarg Gondola, one of the highest cable cars in the world.</p>
+        <p>Day 3: Visit Pahalgam, a picturesque town known for its lush greenery. Enjoy activities like horse riding and visit the Aru Valley.</p>
+        <p>Day 4: Return to Srinagar and explore the old city, including the Jama Masjid and the Shankaracharya Temple. Shop for exquisite handicrafts.</p>
+        <p>Day 5: Head to Leh, the capital of Ladakh. Take a flight over the Himalayas and acclimatize to the high altitude.</p>
+        <p>Day 6: Explore Leh's monasteries, including Thiksey, Hemis, and Shey. Experience the spirituality and cultural richness of Ladakh.</p>
+        <p>Day 7: Visit the stunning Pangong Lake, featured in the movie "3 Idiots," and return to Leh. Depart for your onward journey with unforgettable memories.</p>
+        <p>Estimated Price: 38000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="uttarpradesh">
+        <h3>Package 9: Uttar Pradesh</h3>
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202007/SOS-UP-14-18-Best-District-Jun.jpeg?size=690:388" width="500" height="300">
+        <p>Uttar Pradesh, a northern state of India, is renowned for its historical significance, spiritual centers, and architectural marvels. Here is a possible itinerary for a 6 days trip to Uttar Pradesh:</p>
+        <p>Day 1: Arrive in Agra and visit the iconic Taj Mahal, a UNESCO World Heritage site. Explore the Agra Fort and marvel at the beauty of Mughal architecture.</p>
+        <p>Day 2: Drive to Varanasi, the spiritual heart of India. Experience the Ganga Aarti ceremony at Dashashwamedh Ghat and take a boat ride on the holy Ganges River.</p>
+        <p>Day 3: Discover the ancient city of Varanasi with visits to Kashi Vishwanath Temple, Sarnath, and other historical landmarks.</p>
+        <p>Day 4: Travel to the city of Lucknow, known for its rich culture and cuisine. Explore the Bara Imambara, Chota Imambara, and enjoy the famous Lucknawi kebabs.</p>
+        <p>Day 5: Visit the city of Ayodhya, the birthplace of Lord Rama. Explore the Ram Janmabhoomi and other significant temples and sites.</p>
+        <p>Day 6: Return to Agra for departure, with cherished memories of your journey through Uttar Pradesh.</p>
+        <p>Estimated Price: 32000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="bihar">
+        <h3>Package 10: Bihar</h3>
+        <img src="https://www.nationsonline.org/gallery/India/Great-Buddha-Statue-Bodh-Gaya-India.jpg" width="500" height="300">
+        <p>Bihar, located in eastern India, is a land of ancient history, spirituality, and cultural heritage. Here is a possible itinerary for a 6 days trip to Bihar:</p>
+        <p>Day 1: Arrive in Patna, the capital of Bihar. Explore the Golghar, a historic granary, and visit the Patna Museum to delve into the region's rich history.</p>
+        <p>Day 2: Head to Bodh Gaya, a UNESCO World Heritage site, where Lord Buddha attained enlightenment. Visit the Mahabodhi Temple, Bodhi Tree, and other sacred sites.</p>
+        <p>Day 3: Travel to Nalanda, home to the ancient Nalanda University. Explore the Nalanda Archaeological Museum and the ruins of the Nalanda Mahavihara.</p>
+        <p>Day 4: Visit Rajgir, known for its historical and spiritual significance. Explore the Griddhakuta Hill, Vulture's Peak, and the Japanese Peace Pagoda.</p>
+        <p>Day 5: Drive to Vaishali, an important Buddhist pilgrimage site. Visit the Ashoka Pillar and the Ananda Stupa to witness the relics of Lord Buddha.</p>
+        <p>Day 6: Return to Patna for departure, with newfound insights into Bihar's rich cultural and historical heritage.</p>
+        <p>Estimated Price: 28000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="odisha">
+        <h3>Package 11: Odisha</h3>
+        <img src="https://m.economictimes.com/thumb/msid-70259692,width-1200,height-900,resizemode-4,imgsize-325334/orissa1.jpg" width="500" height="300">
+        <p>Odisha, located on the eastern coast of India, is a land of diverse landscapes, ancient temples, and vibrant culture. Here is a possible itinerary for a 7 days trip to Odisha:</p>
+        <p>Day 1: Arrive in Bhubaneswar, the capital of Odisha. Explore the historic temples of the city, including the Lingaraja Temple and Mukteshwar Temple.</p>
+        <p>Day 2: Visit Puri, a coastal town famous for the Jagannath Temple. Take a dip in the Puri Beach and explore the bustling markets.</p>
+        <p>Day 3: Drive to Konark and marvel at the Sun Temple, a UNESCO World Heritage site. Explore the Chandrabhaga Beach and the Konark Museum.</p>
+        <p>Day 4: Travel to Chilika Lake, the largest coastal lagoon in India. Enjoy a boat ride and witness the rich birdlife and dolphins.</p>
+        <p>Day 5: Explore the ancient caves of Udayagiri and Khandagiri. Visit the Dhauli Shanti Stupa and the Odisha State Museum.</p>
+        <p>Day 6: Drive to Cuttack and explore the historic city, known as the "Silver City." Visit the Barabati Fort and the Cuttack Chandi Temple.</p>
+        <p>Day 7: Return to Bhubaneswar for departure, carrying the memories of Odisha's cultural heritage and natural beauty.</p>
+        <p>Estimated Price: 30000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="andhrapradesh">
+        <h3>Package 12: Andhra Pradesh</h3>
+        <img src="https://static.theprint.in/wp-content/uploads/2022/03/Dhyana_buddha_statue_in_Amaravati.jpg" width="500" height="300">
+        <p>Andhra Pradesh, located in southern India, is known for its rich heritage, vibrant culture, and diverse landscapes. Here is a possible itinerary for a 6 days trip to Andhra Pradesh:</p>
+        <p>Day 1: Arrive in Visakhapatnam (Vizag), a coastal city. Explore the serene Ramakrishna Beach and the iconic Submarine Museum.</p>
+        <p>Day 2: Visit the historic Borra Caves, known for their stunning stalactites and stalagmites. Explore the Araku Valley and enjoy a scenic train ride.</p>
+        <p>Day 3: Drive to Vijayawada, the "Land of Victory." Visit the Kanaka Durga Temple and the Undavalli Caves with their rock-cut architecture.</p>
+        <p>Day 4: Explore Amravati, the ancient capital of the Satavahana dynasty. Visit the Amaravati Stupa, a UNESCO World Heritage site.</p>
+        <p>Day 5: Head to Tirupati, a renowned pilgrimage destination. Visit the Tirumala Venkateswara Temple and experience the spiritual aura.</p>
+        <p>Day 6: Return to Vizag for departure, enriched with cultural experiences and natural beauty of Andhra Pradesh.</p>
+        <p>Estimated Price: 26000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="madhyapradesh">
+        <h3>Package 13: Madhya Pradesh</h3>
+        <img src="https://assets.architecturaldigest.in/photos/6008504b54beb9e516da913b/4:3/w_1024,h_768,c_limit/madhya-pradesh-monuments-1366x768.jpg" width="500" height="300">
+        <p>Madhya Pradesh, located in central India, is a land of historical wonders, wildlife sanctuaries, and cultural diversity. Here is a possible itinerary for a 7 days trip to Madhya Pradesh:</p>
+        <p>Day 1: Arrive in Bhopal, the capital of Madhya Pradesh. Explore the historic sites of the city, including the Taj-ul-Masajid and the Bhimbetka Caves.</p>
+        <p>Day 2: Visit Sanchi, a UNESCO World Heritage site, known for its ancient Buddhist stupas and monasteries.</p>
+        <p>Day 3: Head to Pachmarhi, a hill station in the Satpura Range. Explore the scenic beauty and visit Jata Shankar Caves.</p>
+        <p>Day 4: Explore Pachmarhi further, visiting Bee Falls, Apsara Vihar, and Handi Khoh.</p>
+        <p>Day 5: Drive to Kanha National Park, one of India's premier tiger reserves. Enjoy a wildlife safari in the park.</p>
+        <p>Day 6: Explore Jabalpur and visit the iconic Dhuandhar Falls and Marble Rocks at Bhedaghat.</p>
+        <p>Day 7: Return to Bhopal for departure, carrying the memories of Madhya Pradesh's natural beauty and historical treasures.</p>
+        <p>Estimated Price: 34000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="kerala">
+        <h3>Package 14: Kerala</h3>
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2023/02/Kerala-Cover-1.jpg" width="500" height="300">
+        <p>Kerala, located in the southwestern part of India, is known for its lush greenery, backwaters, and vibrant culture. Here is a possible itinerary for a 8 days trip to Kerala:</p>
+        <p>Day 1: Arrive in Kochi (Cochin), a coastal city. Explore the historic Fort Kochi, Chinese Fishing Nets, and St. Francis Church.</p>
+        <p>Day 2: Head to Munnar, a hill station surrounded by tea plantations. Enjoy a visit to the Tea Gardens and scenic landscapes.</p>
+        <p>Day 3: Explore Munnar further, with visits to Mattupetty Dam, Anamudi Peak, and Eravikulam National Park.</p>
+        <p>Day 4: Drive to Thekkady and embark on a wildlife safari in Periyar Wildlife Sanctuary. Explore the spice plantations.</p>
+        <p>Day 5: Travel to Alleppey and board a traditional houseboat for a backwater cruise through the serene Kerala backwaters.</p>
+        <p>Day 6: Continue the houseboat experience and explore the natural beauty of Alleppey.</p>
+        <p>Day 7: Head to Kovalam, a beautiful beach destination. Relax on the sandy shores and enjoy water sports.</p>
+        <p>Day 8: Return to Kochi for departure, with cherished memories of Kerala's natural beauty and cultural richness.</p>
+        <p>Estimated Price: 38000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="karnataka">
+        <h3>Package 15: Karnataka</h3>
+        <img src="https://cdn.britannica.com/73/156473-050-E0E9F844/Vidah-Sauda-state-legislature-building-Karnataka-Bengaluru.jpg" width="500" height="300">
+        <p>Karnataka, located in southern India, is known for its rich heritage, diverse landscapes, and vibrant culture. Here is a possible itinerary for a 7 days trip to Karnataka:</p>
+        <p>Day 1: Arrive in Bengaluru (Bangalore), the capital of Karnataka. Explore the city's vibrant markets, historic sites, and gardens.</p>
+        <p>Day 2: Head to Mysuru (Mysore), known for its majestic palace. Visit the Mysore Palace, Chamundi Hill, and the Brindavan Gardens.</p>
+        <p>Day 3: Travel to Coorg (Kodagu), a picturesque hill station. Explore coffee plantations, Dubare Elephant Camp, and Abbey Falls.</p>
+        <p>Day 4: Explore Coorg further, visiting Talacauvery, the birthplace of the River Cauvery, and Raja's Seat for stunning sunset views.</p>
+        <p>Day 5: Drive to Hampi, a UNESCO World Heritage site, known for its ancient ruins and temples. Explore the Hampi Bazaar and the Virupaksha Temple.</p>
+        <p>Day 6: Explore the historic sites of Hampi, including the Vittala Temple and Lotus Mahal.</p>
+        <p>Day 7: Return to Bengaluru for departure, with treasured memories of Karnataka's cultural heritage and natural beauty.</p>
+        <p>Estimated Price: 31000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="gujarat">
+        <h3>Package 16: Gujarat</h3>
+        <img src="https://ihplb.b-cdn.net/wp-content/uploads/2016/12/Akshardham-Temple.jpg" width="500" height="300">
+        <p>Gujarat, located in western India, is known for its historical sites, vibrant culture, and diverse landscapes. Here is a possible itinerary for a 6 days trip to Gujarat:</p>
+        <p>Day 1: Arrive in Ahmedabad, the largest city in Gujarat. Explore the Sabarmati Ashram, Adalaj Stepwell, and Gandhi Ashram.</p>
+        <p>Day 2: Visit the iconic Rann of Kutch, a vast salt desert. Explore the white desert and experience the Rann Utsav (seasonal festival).</p>
+        <p>Day 3: Explore Bhuj, a historic town in Kutch. Visit the Aina Mahal, Prag Mahal, and the Bhujia Hill for panoramic views.</p>
+        <p>Day 4: Travel to Gir National Park, the last refuge of the Asiatic lion. Enjoy a wildlife safari and spot diverse wildlife.</p>
+        <p>Day 5: Head to Somnath and visit the sacred Somnath Temple, known as the "Eternal Shrine." Explore the nearby Triveni Sangam and Bhalka Tirth.</p>
+        <p>Day 6: Return to Ahmedabad for departure, with memorable experiences of Gujarat's cultural heritage and natural beauty.</p>
+        <p>Estimated Price: 28000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="nagaland">
+        <h3>Package 17: Nagaland</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbg-Yt8A-EBCAb1AS8hATdnoNOQzklPlIO-A&usqp=CAU" width="500" height="300">
+        <p>Nagaland, located in northeastern India, is known for its vibrant tribal culture, scenic landscapes, and unique festivals. Here is a possible itinerary for a 5 days trip to Nagaland:</p>
+        <p>Day 1: Arrive in Dimapur, the largest city in Nagaland. Explore the Kachari Ruins and the Diezephe Craft Village.</p>
+        <p>Day 2: Head to Kohima, the capital of Nagaland. Visit the Kohima War Cemetery and the Kohima State Museum.</p>
+        <p>Day 3: Explore the picturesque village of Khonoma and experience the rich Naga culture. Enjoy trekking and bird-watching.</p>
+        <p>Day 4: Visit the Hornbill Festival, a celebration of Naga culture and traditions. Enjoy traditional dances, food, and crafts.</p>
+        <p>Day 5: Return to Dimapur for departure, with unforgettable memories of Nagaland's tribal heritage and natural beauty.</p>
+        <p>Estimated Price: 25000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="punjab">
+        <h3>Package 18: Punjab</h3>
+        <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/11/golden-temple-feature.jpg" width="500" height="300">
+        <p>Punjab, located in northern India, is known for its rich culture, delicious cuisine, and historic sites. Here is a possible itinerary for a 6 days trip to Punjab:</p>
+        <p>Day 1: Arrive in Amritsar, a vibrant city. Visit the iconic Golden Temple and experience its serene beauty.</p>
+        <p>Day 2: Explore the historic Jallianwala Bagh and the Wagah Border for the ceremonial lowering of the flags.</p>
+        <p>Day 3: Head to Ludhiana and visit the captivating Maharaja Ranjit Singh War Museum and the Ludhiana Fort.</p>
+        <p>Day 4: Travel to Patiala, known for its royal heritage. Explore the Qila Mubarak Complex and the Sheesh Mahal.</p>
+        <p>Day 5: Visit the holy city of Anandpur Sahib, known for the Anandpur Sahib Gurudwara and the Virasat-e-Khalsa Museum.</p>
+        <p>Day 6: Return to Amritsar for departure, with delightful memories of Punjab's culture and hospitality.</p>
+        <p>Estimated Price: 26000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="manipur">
+        <h3>Package 19: Manipur</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpAxjfxhf2_Rxc7Z79zmE4o-7ftl8H2QLKFg&usqp=CAU" width="500" height="300">
+        <p>Manipur, located in northeastern India, is known for its natural beauty, cultural richness, and unique traditions. Here is a possible itinerary for a 5 days trip to Manipur:</p>
+        <p>Day 1: Arrive in Imphal, the capital of Manipur. Explore the Kangla Fort and the Ima Keithel (Mother's Market).</p>
+        <p>Day 2: Visit Loktak Lake, the largest freshwater lake in northeastern India. Explore the Sendra Island and Keibul Lamjao National Park.</p>
+        <p>Day 3: Explore the charming town of Moirang and visit the INA Museum, commemorating the Indian National Army's role in India's struggle for independence.</p>
+        <p>Day 4: Experience Manipur's traditional culture with visits to Andro Village, known for its pottery, and the Shree Shree Govindajee Temple.</p>
+        <p>Day 5: Return to Imphal for departure, with lasting memories of Manipur's natural wonders and cultural diversity.</p>
+        <p>Estimated Price: 24000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="meghalaya">
+        <h3>Package 20: Meghalaya</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGPJjdLwHf375DKn6AqJwHl_KjBsbX1_wvg&usqp=CAU" width="500" height="300">
+        <p>Meghalaya, located in northeastern India, is known for its lush green hills, cascading waterfalls, and unique living root bridges. Here is a possible itinerary for a 6 days trip to Meghalaya:</p>
+        <p>Day 1: Arrive in Shillong, the capital of Meghalaya. Explore the scenic Ward's Lake and the Don Bosco Centre for Indigenous Cultures.</p>
+        <p>Day 2: Visit the beautiful Shillong Peak for panoramic views and explore the Elephant Falls and Mawphlang Sacred Forest.</p>
+        <p>Day 3: Drive to Cherrapunji (Sohra), one of the wettest places on Earth. Explore the Nohkalikai Falls, Mawsmai Cave, and Living Root Bridges.</p>
+        <p>Day 4: Visit Dawki and explore the crystal-clear Umngot River. Enjoy a boat ride in the transparent waters.</p>
+        <p>Day 5: Head to Mawlynnong, the cleanest village in Asia. Explore the living root bridge and enjoy the serene surroundings.</p>
+        <p>Day 6: Return to Shillong for departure, with fond memories of Meghalaya's natural wonders and pristine beauty.</p>
+        <p>Estimated Price: 29000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="tripura">
+        <h3>Package 21: Tripura</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS2xwWll3eEDcTYNvz5aDCsQ3oydGV6XcV3Q&usqp=CAU" width="500" height="300">
+        <p>Tripura, located in northeastern India, is known for its rich cultural heritage, natural beauty, and historic sites. Here is a possible itinerary for a 5 days trip to Tripura:</p>
+        <p>Day 1: Arrive in Agartala, the capital of Tripura. Explore the Ujjayanta Palace, the Tripura Sundari Temple, and the Neermahal Palace.</p>
+        <p>Day 2: Visit the Unakoti, a historic site known for its rock-cut carvings. Explore the colorful markets of Agartala.</p>
+        <p>Day 3: Drive to Jampui Hills and enjoy the serene beauty and panoramic views. Visit the Orange Orchards and enjoy local cuisine.</p>
+        <p>Day 4: Explore the ancient town of Udaipur, known for its temples, including the Tripura Sundari Temple and Gunabati Group of Temples.</p>
+        <p>Day 5: Return to Agartala for departure, with treasured memories of Tripura's cultural heritage and natural wonders.</p>
+        <p>Estimated Price: 22000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="sikkim">
+        <h3>Package 22: Sikkim</h3>
+        <img src="https://cdn.britannica.com/82/150182-050-800BBE18/Gurudongmar-Lake-Himalayas-India-Sikkim.jpg" width="500" height="300">
+        <p>Sikkim, located in northeastern India, is known for its stunning Himalayan landscapes, monasteries, and adventure activities. Here is a possible itinerary for a 7 days trip to Sikkim:</p>
+        <p>Day 1: Arrive in Gangtok, the capital of Sikkim. Explore the Enchey Monastery, Namgyal Institute of Tibetology, and the bustling MG Marg.</p>
+        <p>Day 2: Visit the famous Tsomgo Lake and Baba Mandir. Enjoy the scenic beauty and the serene Changu Lake.</p>
+        <p>Day 3: Drive to Lachung and explore the picturesque Yumthang Valley, known as the "Valley of Flowers."</p>
+        <p>Day 4: Visit Lachen and explore the Gurudongmar Lake, one of the highest lakes in the world. Enjoy the pristine beauty.</p>
+        <p>Day 5: Return to Gangtok and visit the Rumtek Monastery, Do Drul Chorten, and the Hanuman Tok.</p>
+        <p>Day 6: Explore Pelling and visit the Pemayangtse Monastery, Rabdentse Ruins, and the Khecheopalri Lake.</p>
+        <p>Day 7: Return to Gangtok for departure, with cherished memories of Sikkim's Himalayan charm and spiritual aura.</p>
+        <p>Estimated Price: 32000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="goa">
+        <h3>Package 23: Goa</h3>
+        <img src="https://www.moneytap.com/blog/wp-content/uploads/2023/04/cost-of-living-in-goa-1024x683.jpeg" width="500" height="300">
+        <p>Goa, located on the western coast of India, is known for its beautiful beaches, vibrant nightlife, and Portuguese heritage. Here is a possible itinerary for a 6 days trip to Goa:</p>
+        <p>Day 1: Arrive in Panaji, the capital of Goa. Explore the historic Fontainhas Latin Quarter and visit the Basilica of Bom Jesus.</p>
+        <p>Day 2: Visit the famous beaches of North Goa, including Calangute, Baga, and Anjuna. Enjoy water sports and beachside relaxation.</p>
+        <p>Day 3: Explore the beaches of South Goa, such as Palolem and Colva. Visit the Cabo de Rama Fort for panoramic views.</p>
+        <p>Day 4: Discover Goa's cultural heritage with visits to the Se Cathedral, St. Augustine Tower, and Mangueshi Temple.</p>
+        <p>Day 5: Enjoy a day at leisure or explore the Dudhsagar Waterfalls and the Bhagwan Mahavir Wildlife Sanctuary.</p>
+        <p>Day 6: Return to Panaji for departure, with fond memories of Goa's beaches, culture, and vibrant atmosphere.</p>
+        <p>Estimated Price: 27000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="arunachalpradesh">
+        <h3>Package 24: Arunachal Pradesh</h3>
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Cover-for-aru.jpg" width="500" height="300">
+        <p>Arunachal Pradesh, located in northeastern India, is known for its pristine natural beauty, tribal culture, and adventure opportunities. Here is a possible itinerary for a 7 days trip to Arunachal Pradesh:</p>
+        <p>Day 1: Arrive in Itanagar, the capital of Arunachal Pradesh. Explore the Ita Fort and the Ganga Lake (Gekar Sinyi).</p>
+        <p>Day 2: Drive to Tawang, a picturesque town nestled in the Himalayas. Visit the Tawang Monastery, the second-largest in the world.</p>
+        <p>Day 3: Explore Tawang further, with visits to the Jaswant Garh War Memorial, the Pangang Teng Tso Lake, and the Nuranang Falls.</p>
+        <p>Day 4: Drive to Bomdila and visit the Bomdila Monastery, craft centers, and enjoy panoramic views of the Eastern Himalayas.</p>
+        <p>Day 5: Travel to Dirang and explore the hot water springs and the Sangti Valley, known for its natural beauty.</p>
+        <p>Day 6: Visit Ziro, a UNESCO World Heritage site, and explore the Apatani villages, rice fields, and enjoy a cultural experience.</p>
+        <p>Day 7: Return to Itanagar for departure, with unforgettable memories of Arunachal Pradesh's natural wonders and cultural diversity.</p>
+        <p>Estimated Price: 35000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="mizoram">
+        <h3>Package 25: Mizoram</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSnYA4eAF53xiHtntiQLBLe2zwkU4vNigf1Q&usqp=CAU" width="500" height="300">
+        <p>Mizoram, located in northeastern India, is known for its lush green hills, unique culture, and serene landscapes. Here is a possible itinerary for a 6 days trip to Mizoram:</p>
+        <p>Day 1: Arrive in Aizawl, the capital of Mizoram. Explore the Durtlang Hills, and visit the Mizoram State Museum and Solomon's Temple.</p>
+        <p>Day 2: Drive to Champhai, a picturesque town on the Myanmar border. Visit the Murlen National Park and enjoy the natural beauty.</p>
+        <p>Day 3: Explore the scenic beauty of Phawngpui, also known as the "Blue Mountain." Enjoy trekking and panoramic views.</p>
+        <p>Day 4: Head to Lunglei and explore the serene landscapes, including the Lunglei Bridge and the Khawnglung Wildlife Sanctuary.</p>
+        <p>Day 5: Visit the famous Tamdil Lake, known for its beauty and boating options. Explore the nearby villages and culture.</p>
+        <p>Day 6: Return to Aizawl for departure, with cherished memories of Mizoram's natural wonders and cultural richness.</p>
+        <p>Estimated Price: 28000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="chhattisgarh">
+        <h3>Package 26: Chhattisgarh</h3>
+        <img src="https://img.staticmb.com/mbcontent//images/uploads/2023/4/Chhattisgarh-property-tax.jpg" width="500" height="300">
+        <p>Chhattisgarh, located in central India, is known for its rich tribal culture, ancient temples, and lush forests. Here is a possible itinerary for a 5 days trip to Chhattisgarh:</p>
+        <p>Day 1: Arrive in Raipur, the capital of Chhattisgarh. Explore the Mahant Ghasidas Memorial Museum and the Nandan Van Zoo.</p>
+        <p>Day 2: Visit Sirpur, an ancient town known for its historical sites, including the Laxman Temple and Gandheswar Temple.</p>
+        <p>Day 3: Drive to Jagdalpur and explore the Chitrakote Waterfalls, also known as the "Niagara Falls of India."</p>
+        <p>Day 4: Visit Bastar, known for its tribal culture. Explore tribal villages, markets, and the Bastar Palace.</p>
+        <p>Day 5: Return to Raipur for departure, with lasting memories of Chhattisgarh's cultural diversity and natural beauty.</p>
+        <p>Estimated Price: 23000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="jharkhand">
+        <h3>Package 27: Jharkhand</h3>
+        <img src="https://images.indianexpress.com/2023/05/jharkhand-hc.jpeg" width="500" height="300">
+        <p>Jharkhand, located in eastern India, is known for its scenic landscapes, tribal culture, and natural wonders. Here is a possible itinerary for a 6 days trip to Jharkhand:</p>
+        <p>Day 1: Arrive in Ranchi, the capital of Jharkhand. Explore the Hundru Falls and the Jonha Falls for a refreshing start.</p>
+        <p>Day 2: Visit Netarhat, also known as the "Queen of Chotanagpur." Explore the Magnolia Point and the Upper Ghaghri Falls.</p>
+        <p>Day 3: Drive to Dhanbad and visit the Jharia Coal Fields and the Kalyaneshwari Temple, known for its natural flames.</p>
+        <p>Day 4: Explore Bokaro, known for its steel plant. Visit the Bokaro Steel Plant and enjoy a nature walk in Jawaharlal Nehru Biological Park.</p>
+        <p>Day 5: Visit Hazaribagh and explore the Hazaribagh Wildlife Sanctuary and the picturesque Canary Hills.</p>
+        <p>Day 6: Return to Ranchi for departure, with memorable experiences of Jharkhand's natural beauty and cultural diversity.</p>
+        <p>Estimated Price: 24000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="uttarakhand">
+        <h3>Package 28: Uttarakhand</h3>
+        <img src="https://static.toiimg.com/photo/msid-89326554,width-96,height-65.cms" width="500" height="300">
+        <p>Uttarakhand, nestled in the lap of the Himalayas, is a paradise for nature lovers and adventure enthusiasts. Here is a suggested itinerary for a 7-day trip to Uttarakhand:</p>
+        <p>Day 1: Arrive in Dehradun, the capital of Uttarakhand. Explore Robber's Cave and enjoy a walk on the famous Rajaji National Park.</p>
+        <p>Day 2: Head to Mussoorie, also known as the "Queen of Hills." Visit Kempty Falls and take a cable car ride to Gun Hill for stunning views.</p>
+        <p>Day 3: Drive to Rishikesh, the Yoga capital of the world. Enjoy white-water rafting on the Ganges and visit the famous Laxman Jhula.</p>
+        <p>Day 4: Explore Haridwar, known for its spiritual significance. Attend the Ganga Aarti at Har Ki Pauri and visit Chandi Devi Temple.</p>
+        <p>Day 5: Proceed to Nainital, a beautiful hill station. Enjoy a boat ride on Naini Lake and visit the Naina Devi Temple.</p>
+        <p>Day 6: Visit Jim Corbett National Park for a thrilling wildlife safari and explore the rich biodiversity of the region.</p>
+        <p>Day 7: Return to Dehradun for departure, with unforgettable memories of Uttarakhand's natural beauty and spirituality.</p>
+        <p>Estimated Price: 28000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="telangana">
+        <h3>Package 29: Telangana</h3>
+        <img src="https://images.indianexpress.com/2023/06/Telangana-Day1-1.jpg" width="500" height="300">
+        <p>Telangana, located in southern India, is known for its rich history, vibrant culture, and architectural wonders. Here is a suggested itinerary for a 5-day trip to Telangana:</p>
+        <p>Day 1: Arrive in Hyderabad, the capital of Telangana. Explore the historic Charminar and enjoy a stroll around the bustling Laad Bazaar.</p>
+        <p>Day 2: Visit the iconic Golconda Fort, known for its stunning architecture and historical significance. Explore the Qutb Shahi Tombs.</p>
+        <p>Day 3: Head to Warangal and visit the Thousand Pillar Temple and the majestic Warangal Fort, showcasing the Kakatiya dynasty's glory.</p>
+        <p>Day 4: Explore the serene Bhadrachalam and take a boat ride on the Godavari River. Visit the Bhadrachalam Temple, a famous pilgrimage site.</p>
+        <p>Day 5: Return to Hyderabad for departure, with cherished memories of Telangana's heritage and hospitality.</p>
+        <p>Estimated Price: 18000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="andaman-nicobar">
+        <h3>Package 30: Andaman and Nicobar Islands</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgOln_zIwRz_qYe6zyBLlLzTUdhxgfAkbEhw&usqp=CAU" width="500" height="300">
+        <p>The Andaman and Nicobar Islands, nestled in the Bay of Bengal, offer pristine beaches, crystal-clear waters, and abundant marine life. Here is a suggested itinerary for a 7-day trip to the Andaman and Nicobar Islands:</p>
+        <p>Day 1: Arrive in Port Blair, the capital. Explore the Cellular Jail, a historical landmark, and attend the Light and Sound Show.</p>
+        <p>Day 2: Visit Ross Island, once the administrative headquarters during British rule, and take a boat ride to North Bay Island for snorkeling.</p>
+        <p>Day 3: Head to Havelock Island by ferry. Relax on the world-famous Radhanagar Beach and enjoy water sports.</p>
+        <p>Day 4: Explore Neil Island, known for its natural beauty and beautiful beaches like Bharatpur and Laxmanpur.</p>
+        <p>Day 5: Return to Port Blair and visit the Chidiya Tapu, a birdwatcher's paradise, and the Fisheries Museum.</p>
+        <p>Day 6: Take a day trip to the stunning Jolly Buoy Island or Red Skin Island for snorkeling and underwater exploration.</p>
+        <p>Day 7: Depart from Port Blair with unforgettable memories of the Andaman and Nicobar Islands.</p>
+        <p>Estimated Price: 35000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="chandigarh">
+        <h3>Package 31: Chandigarh</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Palace_of_Assembly_Chandigarh_2006.jpg" width="500" height="300">
+        <p>Chandigarh, the modern and well-planned city in northern India, is known for its architecture, gardens, and cultural attractions. Here is a suggested itinerary for a 3-day trip to Chandigarh:</p>
+        <p>Day 1: Arrive in Chandigarh and explore the famous Rock Garden, a unique sculpture garden created by Nek Chand, and Sukhna Lake for a leisurely evening stroll.</p>
+        <p>Day 2: Visit the Capitol Complex, designed by Le Corbusier and a UNESCO World Heritage Site. Explore the Government Museum and Art Gallery.</p>
+        <p>Day 3: Explore the Rose Garden, one of the largest rose gardens in Asia, and the beautiful Chandigarh Botanical Garden and Nature Park. Depart from Chandigarh with fond memories.</p>
+        <p>Estimated Price: 12000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="dadra-nagar-haveli">
+        <h3>Package 32: Dadra and Nagar Haveli</h3>
+        <img src="https://1.bp.blogspot.com/-otE7eRN7gno/WrOxf7tXbjI/AAAAAAAAIzc/6srD8FKxhUIudzk7HyduQgKb15aMwjHhQCLcBGAs/s1600/dadra%2Band%2Bnagar%2Bhaveli.jpg" width="500" height="300">
+        <p>Dadra and Nagar Haveli, located in western India, is known for its natural beauty, tribal culture, and serene landscapes. Here is a suggested itinerary for a 4-day trip to Dadra and Nagar Haveli:</p>
+        <p>Day 1: Arrive in Silvassa, the capital of Dadra and Nagar Haveli. Visit the Tribal Cultural Museum and explore the lush gardens in the city.</p>
+        <p>Day 2: Explore the Vanganga Lake Garden, known for its serene lake and colorful flora. Enjoy a nature walk in the nearby forests.</p>
+        <p>Day 3: Visit the Dudhni Lake and enjoy a boat ride on its pristine waters. Explore the Madhuban Dam and nearby tribal villages.</p>
+        <p>Day 4: Depart from Silvassa with cherished memories of Dadra and Nagar Haveli's natural beauty and tribal heritage.</p>
+        <p>Estimated Price: 8000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="lakshadweep">
+        <h3>Package 33: Lakshadweep</h3>
+        <img src="https://curlytales.com/wp-content/uploads/2022/05/Also-read-Aviation-Minister-Jyotiraditya-Scindia-To-27.jpg" width="500" height="300">
+        <p>Lakshadweep, a tropical paradise in the Arabian Sea, is known for its coral reefs, pristine beaches, and clear blue waters. Here is a suggested itinerary for a 5-day trip to Lakshadweep:</p>
+        <p>Day 1: Arrive in Agatti, the gateway to Lakshadweep. Relax on the sandy beaches and enjoy the warm waters.</p>
+        <p>Day 2: Explore the stunning coral reefs at Bangaram Island, ideal for snorkeling and water sports.</p>
+        <p>Day 3: Visit Kalapeni and explore the uninhabited Suheli Par Island. Enjoy a picnic on the sandy shores.</p>
+        <p>Day 4: Head to Kadmat Island, known for its beautiful lagoons and water sports activities.</p>
+        <p>Day 5: Depart from Agatti with unforgettable memories of Lakshadweep's natural beauty and marine life.</p>
+        <p>Estimated Price: 25000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>
+    <div class="package" id="ladakh">
+        <h3>Package 34: Ladakh</h3>
+        <img src="https://static.toiimg.com/photo/87726041.cms" width="500" height="300">
+        <p>Ladakh, the "Land of High Passes" in northern India, is known for its stunning landscapes, monasteries, and adventure opportunities. Here is a suggested itinerary for a 7-day trip to Ladakh:</p>
+        <p>Day 1: Arrive in Leh, the capital of Ladakh. Acclimatize to the high altitude and explore the Leh Market and Shanti Stupa.</p>
+        <p>Day 2: Visit the ancient monasteries of Thiksey and Hemis and explore the scenic Indus Valley.</p>
+        <p>Day 3: Head to Nubra Valley via the world's highest motorable pass, Khardung La. Enjoy a camel ride in the unique sand dunes of Hunder.</p>
+        <p>Day 4: Explore the picturesque Pangong Lake, known for its changing colors and tranquility.</p>
+        <p>Day 5: Return to Leh and visit the Shey Palace and Stok Palace Museum.</p>
+        <p>Day 6: Drive to Alchi and visit the Alchi Monastery, known for its ancient art and architecture.</p>
+        <p>Day 7: Depart from Leh with unforgettable memories of Ladakh's breathtaking landscapes and rich culture.</p>
+        <p>Estimated Price: 35000</p>
+        <div style="background-color: rgb(250, 250, 51); width: fit-content; padding: 10px;">
+            <a href="payment.html" class="book">Book Online</a>
+        </div>
+    </div>                                                                                              
 
 </body>
 </html>

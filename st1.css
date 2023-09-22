@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #60d780bb;
+    
+}
+header {
+    text-align: center;
+    border: 1px solid #0c0505; 
+    background-color: #15ce34c4;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background-image: url('https://jooinn.com/images/indian-nature-2.jpg');
+    background-size: cover;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-style: italic;
+    display: flex;
+    color: #27ff06;
+}
+header h2 {
+    margin: 0;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-style: italic;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 8px 15px;
+    background-color: #9ec61d;
+    text-decoration: none;
+    color: #0b0a0a;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #aaa;
+}
+
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weather-card {
+    border: 1px solid #0c0c0c;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 300px;
+}
+
+.weather-card h2 {
+    margin-top: 0;
+}
+
+.weather-card img {
+    width: 50px;
+}
+
+.weather-card p {
+    margin: 8px 0;
+}
