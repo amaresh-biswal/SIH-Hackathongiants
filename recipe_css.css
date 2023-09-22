@@ -1,0 +1,25 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the items */
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 8px 15px;
+    background-color: #9ec61d;
+    text-decoration: none;
+    color: #0b0a0a;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #aaa;
+}

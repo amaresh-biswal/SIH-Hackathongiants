@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Menu - Delicious Eats</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3edf1;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('https://img.freepik.com/premium-photo/overhead-indian-traditional-dishes-appetizers-chicken-curry-pilaf-naan-bread-samosas-paneer-chutney-rustic-background-table-with-choice-food-indian-cuisine-space-text_92134-1254.jpg?w=2000'); /* URL to your background photo */
+            background-size: cover; /* Adjust to your preference */
+            background-position: center;
+            color: #f9f6f6;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .menu-section {
+            background-color: #95eff4;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #fcfcfc;
+            display: flex; /* Use flexbox to create two columns */
+            justify-content: space-between; 
+        }
+        .menu-column {
+            flex: 1; /* Make both columns take up equal space */
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #fcfcfc;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .item-price {
+            font-size: 18px;
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <p>Explore Our Delicious Offerings</p>
+    </header>
+
+    <!-- Menu Sections -->
+    <div class="menu-section">
+        <h2>Breakfast</h2>
+        <div class="menu-item">
+            <span class="item-name">Masala Dosa</span>
+            <span class="item-price">₹80</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Paratha</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Idli</span>
+            <span class="item-price">₹50</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Poha</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Upma</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chole Bhature</span>
+            <span class="item-price">₹90</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vada Pav</span>
+            <span class="item-price">₹40</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Misal Pav</span>
+            <span class="item-price">₹80</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Puri Bhaji</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Rava Dosa</span>
+            <span class="item-price">₹85</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Medu Vada</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Puri</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Samosa Chole</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dhokla</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Batata Poha</span>
+            <span class="item-price">₹65</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Methi Thepla</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Sabudana Khichdi</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Uttapam</span>
+            <span class="item-price">₹80</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Poori Masala</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Pesarattu</span>
+            <span class="item-price">₹85</span>
+        </div>
+        <!-- Add more breakfast items here -->
+    </div>
+    
+
+    <div class="menu-section">
+        <h2>Lunch</h2>
+        <div class="menu-item">
+            <span class="item-name">Butter Chicken</span>
+            <span class="item-price">₹300</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Paneer Tikka</span>
+            <span class="item-price">₹400</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Biryani</span>
+            <span class="item-price">₹250</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dal Makhani</span>
+            <span class="item-price">₹350</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Tandoori Roti</span>
+            <span class="item-price">₹30</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Gobi</span>
+            <span class="item-price">₹450</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Korma</span>
+            <span class="item-price">₹250</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chana Masala</span>
+            <span class="item-price">₹350</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Palak Paneer</span>
+            <span class="item-price">₹250</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vegetable Biryani</span>
+            <span class="item-price">₹300</span>
+        </div>
+        <!-- Add more lunch items here -->
+    </div>
+    
+    
+
+    <div class="menu-section">
+        <h2>Snacks</h2>
+        <div class="menu-item">
+            <span class="item-name">Samosa</span>
+            <span class="item-price">₹30</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Pakora</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Paneer Tikka</span>
+            <span class="item-price">₹85</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Bhel Puri</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Tikki</span>
+            <span class="item-price">₹55</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dahi Puri</span>
+            <span class="item-price">₹80</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chaat Papri</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Golgappa</span>
+            <span class="item-price">₹45</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chana Chaat</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Momo</span>
+            <span class="item-price">₹85</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Pav Bhaji</span>
+            <span class="item-price">₹90</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Spring Roll</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chilli Paneer</span>
+            <span class="item-price">₹95</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dahi Bhalla</span>
+            <span class="item-price">₹75</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Kachori</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Corn Chaat</span>
+            <span class="item-price">₹65</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vegetable Pakora</span>
+            <span class="item-price">₹65</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Veg Spring Roll</span>
+            <span class="item-price">₹80</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Samosa Chaat</span>
+            <span class="item-price">₹55</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dahi Ke Kebab</span>
+            <span class="item-price">₹90</span>
+        </div>
+        <!-- Add more snack items here -->
+    </div>
+    
+        <!-- Add more snacks items here -->
+    </div>
+    <div class="divider"></div>
+    <div class="menu-section">
+        <h2>Dinner</h2>
+        <div class="menu-item">
+            <span class="item-name">Biryani</span>
+            <span class="item-price">₹950</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chole Bhature</span>
+            <span class="item-price">₹550</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Butter Naan</span>
+            <span class="item-price">₹40</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Paneer Butter Masala</span>
+            <span class="item-price">₹800</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Tandoori Chicken</span>
+            <span class="item-price">₹900</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Mutton Rogan Josh</span>
+            <span class="item-price">₹1000</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Tikka Masala</span>
+            <span class="item-price">₹850</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dal Tadka</span>
+            <span class="item-price">₹450</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Gobi</span>
+            <span class="item-price">₹500</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Matar Paneer</span>
+            <span class="item-price">₹750</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Palak Chicken</span>
+            <span class="item-price">₹950</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Jeera Rice</span>
+            <span class="item-price">₹200</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Gulab Jamun</span>
+            <span class="item-price">₹60</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Biryani</span>
+            <span class="item-price">₹900</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Mutton Korma</span>
+            <span class="item-price">₹1100</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Fish Curry</span>
+            <span class="item-price">₹850</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Aloo Paratha</span>
+            <span class="item-price">₹70</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Kadai</span>
+            <span class="item-price">₹950</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Roti</span>
+            <span class="item-price">₹30</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Vegetable Pulao</span>
+            <span class="item-price">₹350</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Shahi Paneer</span>
+            <span class="item-price">₹800</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Dum Aloo</span>
+            <span class="item-price">₹600</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Chicken Kebab</span>
+            <span class="item-price">₹900</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Bhindi Masala</span>
+            <span class="item-price">₹400</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Tandoori Roti</span>
+            <span class="item-price">₹40</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Lamb Curry</span>
+            <span class="item-price">₹1000</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Egg Curry</span>
+            <span class="item-price">₹600</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">Jeera Aloo</span>
+            <span class="item-price">₹450</span>
+        </div>
+        <!-- Add more dinner items here -->
+    </div>
+    
+        <!-- Add more dinner items here -->
+    </div>
+    <!-- End of Menu Sections -->
+</body>
+</html>
